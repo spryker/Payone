@@ -4,7 +4,7 @@
  * (c) Spryker Systems GmbH copyright protected
  */
 
-namespace SprykerFeature\Zed\Payone\Communication\Plugin;
+namespace SprykerFeature\Zed\Payone\Communication\Plugin\Log;
 
 use Generated\Shared\Transfer\PayonePaymentLogTransfer;
 use Propel\Runtime\Collection\ObjectCollection;
