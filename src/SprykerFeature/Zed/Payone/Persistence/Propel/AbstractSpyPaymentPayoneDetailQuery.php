@@ -2,7 +2,7 @@
 
 namespace SprykerFeature\Zed\Payone\Persistence\Propel;
 
-use SprykerFeature\Zed\Payone\Persistence\Propel\Base\SpyPaymentPayoneDetailQuery as BaseSpyPaymentPayoneDetailQuery;
+use Orm\Zed\Payone\Persistence\Base\SpyPaymentPayoneDetailQuery as BaseSpyPaymentPayoneDetailQuery;
 
 /**
  * Skeleton subclass for performing query and update operations on the 'spy_payment_payone_detail' table.
@@ -13,7 +13,7 @@ use SprykerFeature\Zed\Payone\Persistence\Propel\Base\SpyPaymentPayoneDetailQuer
  * application requirements.  This class will only be generated as
  * long as it does not already exist in the output directory.
  */
-class SpyPaymentPayoneDetailQuery extends BaseSpyPaymentPayoneDetailQuery
+abstract class AbstractSpyPaymentPayoneDetailQuery extends BaseSpyPaymentPayoneDetailQuery
 {
 
 }

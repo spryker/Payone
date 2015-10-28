@@ -2,7 +2,7 @@
 
 namespace SprykerFeature\Zed\Payone\Persistence\Propel;
 
-use SprykerFeature\Zed\Payone\Persistence\Propel\Base\SpyPaymentPayoneDetail as BaseSpyPaymentPayoneDetail;
+use Orm\Zed\Payone\Persistence\Base\SpyPaymentPayoneDetail as BaseSpyPaymentPayoneDetail;
 
 /**
  * Skeleton subclass for representing a row from the 'spy_payment_payone_detail' table.
@@ -13,7 +13,7 @@ use SprykerFeature\Zed\Payone\Persistence\Propel\Base\SpyPaymentPayoneDetail as 
  * application requirements.  This class will only be generated as
  * long as it does not already exist in the output directory.
  */
-class SpyPaymentPayoneDetail extends BaseSpyPaymentPayoneDetail
+abstract class AbstractSpyPaymentPayoneDetail extends BaseSpyPaymentPayoneDetail
 {
 
 }
