@@ -38,7 +38,7 @@ use Spryker\Zed\Payone\Business\ApiLog\ApiLogFinder;
 /**
  * @method PayoneConfig getConfig()
  */
-class PayoneDependencyContainer extends AbstractBusinessFactory
+class PayoneBusinessFactory extends AbstractBusinessFactory
 {
 
     /**
